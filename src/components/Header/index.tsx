@@ -40,7 +40,7 @@ export default function Header() {
             className=" text-black  p-2 shadow bg-base-100 rounded-lg  flex flex-col  dropdown-content menu w-32"
             tabIndex={0}
           >
-            <button className=" transition-colors flex items-center  gap-2 rounded-lg  hover:bg-slate-100 p-3 active:bg-slate-200">
+            <button className=" transition-colors flex items-center  gap-2 rounded-lg   hover:bg-slate-100 p-3 active:bg-slate-200">
               <img src={FlagUS} />
               <p className="w-full font-Inter text-left font-medium text-xs">
                 English
@@ -54,7 +54,7 @@ export default function Header() {
             </button>
           </div>
         </div>
-        <button className="btn bg-[#4F46E5] rounded-xl flex items-center gap-2 text-sm capitalize">
+        <button className="btn bg-violet-700 hover:bg-violet-600 active:bg-violet-700 shadow-lg shadow-violet-700/30 text-white  rounded-xl flex items-center gap-2 text-sm capitalize">
           Login
           <ArrowRight weight="bold" size={18} />
         </button>

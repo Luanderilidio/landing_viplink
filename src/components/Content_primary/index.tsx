@@ -20,7 +20,7 @@ export default function Content_Primary() {
           growth across social media platforms.
         </p>
         <div className="flex gap-5">
-          <button className="btn btn-active  bg-[#4F46E5] hover:bg-[#4F46E5] rounded-xl capitalize">
+          <button className="btn btn-active bg-violet-700 hover:bg-violet-600 active:bg-violet-700 shadow-lg shadow-violet-700/30 rounded-xl capitalize">
             Contat Us
           </button>
           <button className="btn btn-outline border-2 border-white hover:border-white hover:bg-transparent rounded-xl text-white  capitalize">
@@ -29,11 +29,11 @@ export default function Content_Primary() {
         </div>
       </div>
       <div className="col-span-7 flex w-full justify-center items-start  gap-5 rounded-xl ">
-        <div className="w-52 mt-20 animate__animated animate__fadeIn animate__slower">
+        <div className="w-52 mt-32 animate__animated animate__fadeIn animate__slower">
           <video
             width="100%"
             height="100%"
-            className="rounded-xl"
+            className="rounded-xl shadow-2xl shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105"
             src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/99moto_1.mp4"
             muted
             loop
@@ -44,42 +44,24 @@ export default function Content_Primary() {
           <video
             width="100%"
             height="100%"
-            className="rounded-xl"
-            src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/99moto_1.mp4"
+            className="rounded-xl shadow-2xl shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105"
+            src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/fusion_1.mp4"
             muted
             loop
             autoPlay
           />
         </div>
-        <div className="w-52 mt-20 animate__animated animate__fadeIn animate__slower">
+        <div className="w-52 mt-32 animate__animated animate__fadeIn animate__slower">
           <video
             width="100%"
             height="100%"
-            className="rounded-xl"
-            src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/99moto_1.mp4"
+            className="rounded-xl shadow-2xl shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105"
+            src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/wpt_1.mp4"
             muted
             loop
             autoPlay
           />
         </div>
-        {/* <video
-          width="100%"
-          height="100%"
-          className="rounded-xl"
-          src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/99moto_1.mp4"
-          muted
-          loop
-          autoPlay
-        />
-        <video
-          width="100%"
-          height="100%"
-          className="rounded-xl"
-          src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/99moto_1.mp4"
-          muted
-          loop
-          autoPlay
-        /> */}
       </div>
     </div>
   );

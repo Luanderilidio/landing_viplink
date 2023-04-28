@@ -5,6 +5,10 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      backgroundImage: {
+        "hero-pattern": "url('/public/BACKGROUND.png')",
+      },
+
       fontFamily: {
         Anton: ["Anton", "sans-serif"],
         Roboto: ["Roboto", "sans-serif"],

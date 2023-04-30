@@ -39,7 +39,7 @@ export default function Header() {
               <CaretDown size={12} weight="bold" />
             </div>
             <div
-              className=" text-black  p-2 shadow bg-base-100 rounded-lg  flex flex-col  dropdown-content menu w-32"
+              className=" text-black bg-white p-2 shadow bg-base-100 rounded-lg  flex flex-col  dropdown-content menu w-32"
               tabIndex={0}
             >
               <button className=" transition-colors flex items-center  gap-2 rounded-lg   hover:bg-slate-100 p-3 active:bg-slate-200">
@@ -57,7 +57,7 @@ export default function Header() {
             </div>
           </div>
           <button className=" hidden btn bg-violet-700 hover:bg-violet-600 active:bg-violet-700 shadow-lg shadow-violet-700/30 text-white rounded-xl sm:flex items-center gap-2 text-sm capitalize">
-            Login
+            Shedule a Call
             <ArrowRight weight="bold" size={18} />
           </button>
           <button
@@ -103,10 +103,10 @@ export default function Header() {
               </div>
             </div>
             <div className="w-full gap-7 flex flex-col items-center justify-center">
-              <button className="btn btn-outline text-lg w-full border-violet-700 hover:border-violet-700 hover:bg-transparent active:bg-transparent shadow-lg hover:shadow-violet-700/40 shadow-violet-700/20 text-violet-700 rounded-xl sm:flex items-center gap-2 capitalize">
+              <button className="btn btn-outline  text-lg w-full border-violet-700 hover:border-violet-700 hover:bg-transparent active:bg-transparent shadow-lg hover:shadow-violet-700/40 shadow-violet-700/20 active:text-violet-700 hover:text-violet-700 text-violet-700 rounded-xl sm:flex items-center gap-2 capitalize">
                 Sign Up
               </button>
-              <button className="btn  text-lg w-full bg-violet-700 border-violet-700 hover:bg-violet-600 active:bg-violet-700 shadow-lg hover:shadow-violet-700/40 shadow-violet-700/20 text-white rounded-xl sm:flex items-center gap-2 capitalize">
+              <button className="btn  text-whitetext-lg w-full bg-violet-700 border-violet-700 hover:bg-violet-600 active:bg-violet-700 shadow-lg hover:shadow-violet-700/40 shadow-violet-700/20 text-white rounded-xl sm:flex items-center gap-2 capitalize">
                 Sign In
               </button>
             </div>

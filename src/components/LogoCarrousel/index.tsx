@@ -4,7 +4,7 @@ import "./style.css";
 
 export default function LogoCarrousel() {
   return (
-    <div className="logos inline-flex mt-10">
+    <div className="logos mt-10">
       <div className="logos-slide flex">
         <img src={Logo1} />
         <img src={Logo1} />

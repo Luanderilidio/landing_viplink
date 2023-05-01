@@ -43,8 +43,8 @@
 
 
 .logos-slide {
-    display: inline-block;
-    white-space: nowrap;
+    /* display: inline-block;
+    white-space: nowrap; */
     animation: 20s slide infinite linear
 
 }

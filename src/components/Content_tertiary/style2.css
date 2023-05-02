@@ -1,0 +1,55 @@
+.logosBrands {
+    overflow: hidden;
+    /* padding: 60px 0; */
+    background: transparent;
+    position: relative;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    } 
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logosBrands:hover .logos-slideBrands {
+    animation-play-state: paused;
+}
+
+.logosBrands:before, .logosBrands:after {
+    position: absolute;
+    top: 0;
+    /* width: 200px;
+    height: 100px; */
+    content: "";
+    z-index: 2;
+
+}
+
+.logosBrands:before {
+
+    left: 0;
+    background: linear-gradient(to left, rgba(255,255,255,0), #141943);
+
+
+}
+
+.logosBrands:after{
+    right: 0;
+    background: linear-gradient(to right, rgba(255,255,255,0), #141943);
+}
+
+
+.logos-slideBrands {
+    /* display: inline-block;
+    white-space: nowrap; */
+    animation: 30s slide infinite linear
+
+}
+
+.logos-slideBrands img {
+    height: 30px;
+    margin: 0 40px;
+}

@@ -1,5 +1,4 @@
 import "animate.css";
-import "./style2.css";
 import Logo1 from "../../assets/brands/1.png";
 import {
   ArrowRight,

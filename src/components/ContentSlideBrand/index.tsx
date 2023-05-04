@@ -8,18 +8,18 @@ import { LineChart } from "./teste";
 
 export default function ContentSlideBrand() {
   return (
-    <div className="grid grid-cols-12 mt-20 ">
-      <div className="col-span-6 flex">
+    <div className="grid grid-cols-12 mt-20 p-10 ">
+      <div className="col-span-12 sm:col-span-6 flex">
         <div className="flex items-start justify-start gap-5 flex-col">
           <img className="ml-5 w-40" src={Logo1} />
           <div className="flex items-start gap-5 ">
             <img
-              className="shadow-2xl shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105"
+              className="shadow-2xl w-1/5 sm:w-full shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105"
               src={Fall}
             />
             <div className="flex justify-start  h-full flex-col">
               <div className="flex flex-col gap-5">
-                <p className="text-4xl font-bold">
+                <p className="text-lg sm:text-4xl font-bold">
                   Prime Video <br /> Brand Growth
                 </p>
                 <div className="rating">

@@ -4,7 +4,7 @@ import LogoCarrousel from "../LogoCarrousel";
 
 export default function Content_Primary() {
   return (
-    <div className=" grid grid-cols-12 sm:px-10 sm:p mt-2">
+    <div className=" grid grid-cols-12 sm:px-10  mt-2">
       <div className="col-span-12 sm:col-span-6 flex flex-col gap-7">
         <h1 className="text-6xl text-center sm:text-left sm:text-8xl font-bold font-Inter	">
           Brand
@@ -73,9 +73,9 @@ export default function Content_Primary() {
           </button>
         </div>
       </div>
-      <div className="col-span-12 flex mt-12 flex-col gap-5 w-full">
-        <p className="w-full text-center text-violet-700 font-bold text-sm">
-          POWERING GROWTH FROM COMPANIES ALL AROUND THE WORLD
+      <div className="col-span-12 flex mt-20 flex-col gap-10 w-full">
+        <p className=" sm:w-full text-center text-violet-700 font-bold text-sm">
+          POWERING GROWTH FROM COMPANIES <br className="sm:hidden"/> ALL AROUND THE WORLD
         </p>
         <LogoCarrousel />
       </div>

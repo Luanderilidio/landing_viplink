@@ -19,7 +19,7 @@ export default function Header() {
   return (
     <>
       <div className="w-full flex items-center justify-between font-Inter p-6">
-        <img alt="logo_viplink" className="w-28" src={LogoViplink} />
+        <img alt="logo_viplink" className="w-20 sm:w-28" src={LogoViplink} />
         <div className="flex items-center justify-center gap-10 ">
           <div className="hidden sm:block flex-col group hover:text-violet-700 transition-all ease-in-out  active:scale-95">
             <button className=" py-1 text-sm font-Inter font-bold">
@@ -56,7 +56,9 @@ export default function Header() {
               </button>
             </div>
           </div>
-          <button className=" hidden btn bg-violet-700 hover:bg-violet-600 active:bg-violet-700 shadow-lg shadow-violet-700/30 text-white rounded-xl sm:flex items-center gap-2 text-sm capitalize">
+          <button
+            className=" hidden btn bg-violet-700 hover:bg-violet-600 active:bg-violet-700 shadow-lg shadow-violet-700/30 text-white rounded-xl sm:flex items-center gap-2 text-sm normal-case"
+          >
             Shedule a Call
             <ArrowRight weight="bold" size={18} />
           </button>

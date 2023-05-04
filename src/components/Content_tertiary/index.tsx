@@ -18,7 +18,7 @@ export default function Content_Tertiary() {
           <div className="w-screen logos-slideBrands flex gap-14">
             <div className=" flex flex-col gap-4 items-center justify-center">
               <p className="w-full text-7xl -mb-10">”</p>
-              <p className="w-[500px] font-normal italic text-lg text-center ">
+              <p className="w-[300px] font-normal italic text-md text-center ">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s,

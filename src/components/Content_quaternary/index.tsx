@@ -15,7 +15,7 @@ export default function Content_Quaternary() {
         <p className="text-center font-bold capitalize text-3xl sm:text-5xl">
           How to Works
         </p>
-        <div className="w-1/12 h-1 rounded-sm  bg-violet-700" />
+        <div className="w-6/12 h-1 rounded-sm  bg-violet-700" />
       </div>
 
       <div className="w-9/12 grid grid-cols-4 gap-10 p-10  bg-white bg-opacity-10 rounded-2xl shadow-md backdrop-blur-md border border-white border-opacity-30">

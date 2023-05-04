@@ -56,9 +56,7 @@ export default function Header() {
               </button>
             </div>
           </div>
-          <button
-            className=" hidden btn bg-violet-700 hover:bg-violet-600 active:bg-violet-700 shadow-lg shadow-violet-700/30 text-white rounded-xl sm:flex items-center gap-2 text-sm normal-case"
-          >
+          <button className=" hidden btn bg-violet-700 hover:bg-violet-600 active:bg-violet-700 shadow-lg shadow-violet-700/30 text-white rounded-xl sm:flex items-center gap-2 text-sm normal-case">
             Shedule a Call
             <ArrowRight weight="bold" size={18} />
           </button>
@@ -100,6 +98,12 @@ export default function Header() {
               <div className="flex-col group hover:text-[#4F46E5] transition-all ease-in active:scale-95">
                 <button className="py-1 text-2xl font-Inter font-bold">
                   About us
+                </button>
+                <div className="transition-all ease-in-out w-0 group-hover:w-full h-1 bg-[#4F46E5]" />
+              </div>
+              <div className="flex-col group hover:text-[#4F46E5] transition-all ease-in active:scale-95">
+                <button className="py-1 text-2xl font-Inter font-bold">
+                  Terms of Use
                 </button>
                 <div className="transition-all ease-in-out w-0 group-hover:w-full h-1 bg-[#4F46E5]" />
               </div>

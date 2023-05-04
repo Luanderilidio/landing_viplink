@@ -1,32 +1,25 @@
 import "animate.css";
 import { InlineWidget } from "react-calendly";
 import { useMediaQuery } from "react-responsive";
+import SliderCreators from "../SliderCreators";
 
-export default function Content_Ninth() {
+export default function Content_Fifth() {
   const isMobile = useMediaQuery({
     query: "(max-width: 767px)",
   });
 
-  const value = isMobile ? 500 : 760
+  const value = isMobile ? 500 : 760;
   return (
     <div className=" flex flex-col gap-10 sm:gap-0 mt-24 px-5">
       <div className="flex flex-col items-center justify-center  gap-1">
         <p className="text-center w-full font-bold normal-case text-3xl sm:text-5xl">
-          Shedule a Call
+          Make your brand go viral
+          <br /> with thousands of creators
         </p>
-        <div className="w-2/12 h-1 rounded-sm  bg-violet-700" />
+        <div className="w-3/12 h-1 rounded-sm  bg-violet-700" />
       </div>
       <div className="flex items-center justify-center">
-        <div className="w-full h-full rounded-lg">
-          <InlineWidget
-            styles={{
-              width: "100%",
-              borderRadius: 12,
-              height: value,
-            }}
-            url="https://calendly.com/bcviplink/30?hide_gdpr_banner=1"
-          />
-        </div>
+        <SliderCreators />
       </div>
     </div>
   );

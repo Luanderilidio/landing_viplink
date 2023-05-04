@@ -1,3 +1,4 @@
+import Content_Fifth from "../../components/Content_Fifth";
 import Content_Ninth from "../../components/Content_ninth";
 import Content_Octave from "../../components/Content_octave";
 import Content_Primary from "../../components/Content_primary";
@@ -13,9 +14,10 @@ export default function Home() {
     <div>
       <Header />
       <Content_Primary />
-      {/* <Content_Secondary /> */}
+      <Content_Secondary />
       <Content_Tertiary />
       <Content_Quaternary />
+      <Content_Fifth />
       <Content_Sixth />
       <Content_Seventh />
       <Content_Octave />

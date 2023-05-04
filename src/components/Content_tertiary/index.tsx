@@ -7,7 +7,7 @@ export default function Content_Tertiary() {
   return (
     <div className="flex flex-col gap-16 mt-24">
       <div className="flex flex-col items-center gap-2">
-        <p className="text-center font-bold capitalize text-3xl sm:text-5xl">
+        <p className="text-center font-bold capitalize text-2xl sm:text-5xl">
           Trusted By The <br className="sm:hidden" /> Best Brands
         </p>
         <div className="w-3/12 h-1 rounded-sm  bg-violet-700" />

@@ -3,18 +3,19 @@ import { ArrowRight, ArrowSquareOut, CheckCircle } from "phosphor-react";
 
 export default function Content_Seventh() {
   return (
-    <div className="sm:grid sm:grid-cols-12 flex flex-col gap-10 sm:gap-16 mt-24 px-10">
-      <div className="col-span-12 sm:col-span-6 flex flex-col items-start justify-start  gap-5">
+    <div className="sm:grid sm:grid-cols-12 flex flex-col gap-10 sm:gap-16 mt-24  px-5">
+      <div className="hidden sm:block col-span-1" />
+      <div className="col-span-12 sm:col-span-5 flex flex-col items-start justify-start  gap-5">
         <p className="text-center w-full sm:text-left font-bold capitalize text-3xl sm:text-5xl">
-          Pay Only For The <br className="sm:hidden" /> Metrics That Matter
+          Pay Only For The <br /> Metrics That Matter
         </p>
-        <button className="hidden sm:block btn w-1/4 btn-outline text-white border-2 border-white hover:border-white hover:bg-transparent rounded-xl  normal-case">
+        <button className="hidden sm:block btn w-2/4 btn-outline text-white border-2 border-white hover:border-white hover:bg-transparent rounded-xl normal-case">
           Shedule a Call
         </button>
       </div>
 
-      <div className="col-span-12 sm:col-span-6 flex flex-col items-center justify-start gap-10">
-        <div className="w-full  flex gap-1 items-start">
+      <div className="col-span-12 sm:col-span-5 flex flex-col items-center justify-start gap-10">
+        <div className="w-full  flex flex-col sm:flex-row  gap-2 items-start">
           <CheckCircle
             className="mt-1 text-violet-700"
             size={25}
@@ -33,26 +34,26 @@ export default function Content_Seventh() {
             </p>
           </div>
         </div>
-        <div className="w-full  flex gap-1 items-start">
+        <div className="w-full flex flex-col sm:flex-row  gap-2 items-start">
           <CheckCircle
             className="mt-1 text-violet-700"
             size={25}
             weight="fill"
           />
-          <div className="w-fit  flex flex-col items-start justify-start">
+          <div className="w-fit   flex flex-col items-start justify-start">
             <div className="flex flex-col">
-              <p className="text-left font-bold leading-none capitalize text-2xl sm:text-3xl">
+              <p className="text-left font-bold w-fit leading-none capitalize text-2xl sm:text-3xl">
                 No Third party placement
               </p>
               <div className="w-full h-1 rounded-sm  bg-violet-700" />
             </div>
-            <p className="mt-3 w-full sm:w-3/5">
+            <p className="mt-3  sm:w-4/5">
               Direct access to the verified creators you need. reduced risk of
               communication between various parties. Lower overall cost.
             </p>
           </div>
         </div>
-        <div className="w-full  flex gap-1 items-start">
+        <div className="w-full  flex flex-col sm:flex-row  gap-2 items-start">
           <CheckCircle
             className="mt-1 text-violet-700"
             size={25}
@@ -71,7 +72,7 @@ export default function Content_Seventh() {
             </p>
           </div>
         </div>
-        <div className="w-full flex gap-1 items-start justify-start">
+        <div className="w-full flex flex-col sm:flex-row  gap-2 items-start justify-start">
           <CheckCircle
             className="mt-1 text-violet-700"
             size={25}
@@ -108,6 +109,7 @@ export default function Content_Seventh() {
           </div>
         </div> */}
       </div>
+      <div className="hidden sm:block col-span-1" />
     </div>
   );
 }

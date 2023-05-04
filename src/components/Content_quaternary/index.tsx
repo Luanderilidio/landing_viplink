@@ -10,7 +10,7 @@ import {
 
 export default function Content_Quaternary() {
   return (
-    <div className="flex  items-center flex-col gap-16 mt-24">
+    <div className="flex items-center flex-col gap-16 mt-24 sm:px-0 px-5">
       <div className="flex flex-col items-center gap-2">
         <p className="text-center font-bold capitalize text-3xl sm:text-5xl">
           How to Works
@@ -18,7 +18,7 @@ export default function Content_Quaternary() {
         <div className="w-6/12 h-1 rounded-sm  bg-violet-700" />
       </div>
 
-      <div className="w-9/12 grid grid-cols-4 gap-10 p-10  bg-white bg-opacity-10 rounded-2xl shadow-md backdrop-blur-md border border-white border-opacity-30">
+      <div className="w-full sm:w-9/12 grid grid-cols-4 gap-10 p-10   bg-white bg-opacity-10 rounded-2xl shadow-md backdrop-blur-md border border-white border-opacity-30">
         <div className="col-span-4 sm:col-span-1 flex flex-col items-center justify-start gap-5">
           <Handshake size={80} weight="fill" />
           <p className="font-bold text-lg">Brand alignment</p>
@@ -44,7 +44,7 @@ export default function Content_Quaternary() {
         </div>
         <div className="col-span-4 sm:col-span-1 flex flex-col items-center justify-start gap-5">
           <ChartLineUp size={80} weight="fill" />
-          <p className="font-bold text-lg">Hands free results</p>
+          <p className="font-bold text-lg">Hands Free Results</p>
           <p className="font-normal text-md text-center">
             From audience management to creator reward payments.
           </p>

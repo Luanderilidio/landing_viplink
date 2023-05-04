@@ -6,9 +6,9 @@ import Gostosa from "../../assets/logo1.jpeg";
 import Fall from "../../assets/fall.png";
 import { LineChart } from "./teste";
 
-export default function ContentSlideBrand() {
+export default function ContentBrand() {
   return (
-    <div className="grid grid-cols-12 mt-20 p-10 ">
+    <div className="grid grid-cols-12  px-10">
       <div className="col-span-12 sm:col-span-6 flex">
         <div className="flex items-start justify-start gap-5 flex-col">
           <img className="ml-5 w-40" src={Logo1} />

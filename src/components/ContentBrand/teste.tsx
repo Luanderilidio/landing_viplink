@@ -49,14 +49,22 @@ export const options = {
   },
 };
 
-const labels = ["January", "February", "March", "April", "May", "June", "July"];
+const labels = [
+  "day1",
+  "day2",
+  "day3",
+  "day4",
+  "day5",
+];
 
 export const data = {
   labels,
   datasets: [
     {
       label: "Dataset 1",
-      data: [10, 9.9, 10.5, 12, 11, 14],
+      // data: [1, 1.3, 1.2, 1.5, 2.3, 1.9, 2.3, 2.1, 3, 2.6, 3, 2.9],
+            data: [1, 1.3, 1.2, 2, 1.9,],
+
       borderColor: "#04CE00",
       backgroundColor: "#04CE00)",
       pointRadius: 0,
@@ -65,5 +73,5 @@ export const data = {
 };
 
 export function LineChart() {
-  return <Line options={options} data={data} />;
+  return <Line className="" options={options} data={data} />;
 }

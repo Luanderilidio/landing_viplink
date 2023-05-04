@@ -3,7 +3,7 @@ import { LineChart } from "./LineChart";
 
 export default function Content_Octave() {
   return (
-    <div className=" sm:px-10 gap-10 px-10 mt-24">
+    <div className="  flex flex-col gap-10 sm:gap-0 px-5 mt-24">
       <div className="">
         <div className="flex flex-col items-center gap-2">
           <p className="text-center font-bold capitalize text-3xl sm:text-5xl">

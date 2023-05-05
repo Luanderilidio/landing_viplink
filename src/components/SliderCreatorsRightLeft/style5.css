@@ -1,0 +1,37 @@
+.creators2 {
+    overflow: hidden;
+    background: transparent;
+    position: relative;
+}
+
+@keyframes slide1 {
+    from {
+        transform: translateX(0%);
+    } 
+    to {
+        transform: translateX(100%);
+    }
+}
+
+.creators2:hover .creators2-slide  {
+    animation-play-state: paused;
+}
+
+.creators2:before, .creators2:after {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100px;
+    content: "";
+    z-index: 2;
+}
+
+.creators2-slide {
+    animation: 20s slide1 infinite linear;
+    transform: translateX(0%);
+}
+
+.creators2-slide img {
+    height: 30px;
+    margin: 0 40px;
+}

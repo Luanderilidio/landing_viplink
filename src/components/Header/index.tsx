@@ -57,7 +57,7 @@ export default function Header() {
             </div>
           </div>
           <button className=" hidden btn bg-violet-700 hover:bg-violet-600 active:bg-violet-700 shadow-lg shadow-violet-700/30 text-white rounded-xl sm:flex items-center gap-2 text-sm normal-case">
-            Shedule a Call
+            Schedule a Call
             <ArrowRight weight="bold" size={18} />
           </button>
           <button

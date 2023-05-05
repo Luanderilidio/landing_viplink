@@ -19,31 +19,47 @@ export default function Content_Quaternary() {
       </div>
 
       <div className="w-full sm:w-9/12 grid grid-cols-4 gap-10 p-10   bg-white bg-opacity-10 rounded-2xl shadow-md backdrop-blur-md border border-white border-opacity-30">
-        <div className="col-span-4 sm:col-span-1 flex flex-col items-center justify-start gap-5">
-          <Handshake size={80} weight="fill" />
+        <div className="group col-span-4 sm:col-span-1 flex flex-col items-center justify-start gap-5">
+          <Handshake
+            size={80}
+            className="transition-all group-hover:scale-105 ease-in-out group-hover:text-violet-600"
+            weight="fill"
+          />
           <p className="font-bold text-lg">Brand alignment</p>
           <p className="font-normal text-md text-center">
             Consultants will help you define the perfect target audience and
             creator profile to achieve your brand goals.
           </p>
         </div>
-        <div className="col-span-4 sm:col-span-1 flex flex-col items-center justify-start gap-5">
-          <PresentationChart size={80} weight="fill" />
+        <div className="group col-span-4 sm:col-span-1 flex flex-col items-center justify-start gap-5">
+          <PresentationChart
+            size={80}
+            className="transition-all group-hover:scale-105 ease-in-out group-hover:text-violet-600"
+            weight="fill"
+          />
           <p className="font-bold text-lg">Setup and Launch</p>
           <p className="font-normal text-md text-center">
             AI will get the best available bidding price for you to go VIRAL.
           </p>
         </div>
-        <div className="col-span-4 sm:col-span-1 flex flex-col items-center justify-start gap-5">
-          <UsersThree size={80} weight="fill" />
+        <div className="group col-span-4 sm:col-span-1 flex flex-col items-center justify-start gap-5">
+          <UsersThree
+            size={80}
+            className="transition-all group-hover:scale-105 ease-in-out group-hover:text-violet-600"
+            weight="fill"
+          />
           <p className="font-bold text-lg">Brand Safety</p>
           <p className="font-normal text-md text-center">
             Curated and aligned creators deliver AMAZING branded content to
             millions of consumers.
           </p>
         </div>
-        <div className="col-span-4 sm:col-span-1 flex flex-col items-center justify-start gap-5">
-          <ChartLineUp size={80} weight="fill" />
+        <div className="group col-span-4 sm:col-span-1 flex flex-col items-center justify-start gap-5">
+          <ChartLineUp
+            size={80}
+            className="transition-all group-hover:scale-105 ease-in-out group-hover:text-violet-600"
+            weight="fill"
+          />
           <p className="font-bold text-lg">Hands Free Results</p>
           <p className="font-normal text-md text-center">
             From audience management to creator reward payments.

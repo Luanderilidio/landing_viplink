@@ -7,6 +7,7 @@ import Content_Secondary from "../../components/Content_secondary";
 import Content_Seventh from "../../components/Content_seventh";
 import Content_Sixth from "../../components/Content_sixth";
 import Content_Tertiary from "../../components/Content_tertiary";
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <Content_Seventh />
       <Content_Octave />
       <Content_Ninth />
+      <Footer />
     </div>
   );
 }

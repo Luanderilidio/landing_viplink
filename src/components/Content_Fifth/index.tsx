@@ -1,7 +1,8 @@
 import "animate.css";
 import { InlineWidget } from "react-calendly";
 import { useMediaQuery } from "react-responsive";
-import SliderCreators from "../SliderCreators";
+import SliderCreatorsLeftRight from "../SliderCreatorsLeftRight";
+import SliderCreatorsRightLeft from "../SliderCreatorsRightLeft";
 
 export default function Content_Fifth() {
   const isMobile = useMediaQuery({
@@ -10,16 +11,19 @@ export default function Content_Fifth() {
 
   const value = isMobile ? 500 : 760;
   return (
-    <div className=" flex flex-col gap-10 sm:gap-0 mt-24 px-5">
-      <div className="flex flex-col items-center justify-center  gap-1">
+    <div className=" flex flex-col gap-14 sm:gap-10 mt-24">
+      <div className="flex flex-col items-center justify-center  gap-1 px-5">
         <p className="text-center w-full font-bold normal-case text-3xl sm:text-5xl">
           Make your brand go viral
-          <br /> with thousands of creators
+          <br className="hidden sm:block" /> with thousands{" "}
+          <br className="sm:hidden" />
+          of creators
         </p>
         <div className="w-3/12 h-1 rounded-sm  bg-violet-700" />
       </div>
-      <div className="flex items-center justify-center">
-        <SliderCreators />
+      <div className="flex flex-col gap-5 items-center mt-15 justify-center">
+        <SliderCreatorsLeftRight />
+        <SliderCreatorsRightLeft />
       </div>
     </div>
   );

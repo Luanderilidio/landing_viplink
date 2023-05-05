@@ -10,7 +10,7 @@ export default function Content_Seventh() {
           Pay Only For The <br /> Metrics That Matter
         </p>
         <button className="hidden sm:block btn w-2/4 btn-outline text-white border-2 border-white hover:border-white hover:bg-transparent rounded-xl normal-case">
-          Shedule a Call
+          Schedule a Call
         </button>
       </div>
 

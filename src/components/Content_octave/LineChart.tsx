@@ -34,16 +34,7 @@ export const options = {
       text: "Chart.js Line Chart",
     },
   },
-  animations: {
-    y: {
-      easing: "easeInOutElastic",
-    },
-    radius: {
-      duration: 400,
-      easing: "linear",
-      // loop: (context) => context.active,
-    },
-  },
+
   scales: {
     x: {
       ticks: {
@@ -183,27 +174,5 @@ export function LineChart() {
     ],
   };
 
-  // useEffect(() => {
-  //   let contador = 1;
-  // const interval = setInterval(() => {
-  //   const newData = {
-  //     ...data,
-  //     labels: [...data.labels, `Dia ${data.labels.length + 1}`],
-  //     datasets: [
-  //       {
-  //         ...data.datasets[0],
-  //         data: [
-  //           ...data.datasets[0].data,
-  //           views[data.labels.length + 1], // adiciona um valor aleatório entre 1 e 100
-  //         ],
-  //       },
-  //     ],
-  //   };
-  //   contador++;
-  //   setData(newData);
-  // }, 1500);
-
-  //   return () => clearInterval(interval);
-  // }, [data]);
   return <Line options={options} data={initialData} />;
 }

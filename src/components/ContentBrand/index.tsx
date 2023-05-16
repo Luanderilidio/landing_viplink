@@ -9,142 +9,53 @@ import { LineChart } from "./teste";
 export default function ContentBrand() {
   return (
     <div className="grid grid-cols-12  px-10">
-      <div className="col-span-12 sm:col-span-6 flex">
-        <div className="flex items-start justify-start gap-5 flex-col">
-          <img className="ml-5 w-40" src={Logo1} />
-          <div className="flex items-start gap-5 ">
-            <img
-              className="shadow-2xl w-1/5 sm:w-full shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105"
-              src={Fall}
-            />
-            <div className="flex justify-start  h-full flex-col">
-              <div className="flex flex-col gap-5">
-                <p className="text-lg sm:text-4xl font-bold">
-                  Prime Video <br /> Brand Growth
-                </p>
-                <div className="rating">
-                  <input
-                    type="radio"
-                    name="rating-2"
-                    className="mask mask-star-2 bg-orange-400"
-                    checked
-                  />
-                  <input
-                    type="radio"
-                    name="rating-2"
-                    className="mask mask-star-2 bg-orange-400"
-                    checked
-                  />
-                  <input
-                    type="radio"
-                    name="rating-2"
-                    className="mask mask-star-2 bg-orange-400"
-                    checked
-                  />
-                  <input
-                    type="radio"
-                    name="rating-2"
-                    className="mask mask-star-2 bg-orange-400"
-                    checked
-                  />
-                  <input
-                    type="radio"
-                    name="rating-2"
-                    className="mask mask-star-2 bg-orange-400"
-                    checked
-                  />
-                </div>
-              </div>
-              <div className="flex gap-5 h-full ">
-                <div className="flex 1/2 flex-col justify-end">
-                  <p className="font-normal opacity-60 text-sm">Statistics</p>
-                  <p className="font-semibold text-lg mb-10">Impressions</p>
-                  <div className="flex items-center gap-2">
-                    <p className="text-3xl font-bold">+5M</p>
-                    <Eye size={29} weight="fill" />
-                  </div>
-                  <div className="flex items-center text-green-500 gap-2">
-                    <p className="font-semibold whitespace-nowrap	">
-                      CPM +18.34%
-                    </p>
-                    <TrendUp size={20} weight="bold" />
-                  </div>
-                </div>
-                <div className="flex justify-end items-end">
-                  <LineChart />
-                </div>
-              </div>
-            </div>
+      <div className="col-span-1" />
+      <div className="col-span-10 flex flex-col gap-5">
+        <img src={Logo1} className="w-32" />
+        <p className="text-lg font-Inter">
+          Influencers were encouraged to create a short video{" "}
+          <strong>promoting a movie available on Amazon Prime Video</strong>.
+          The Creators highlighted numerous reactions and feelings provoked by
+          the film when{" "}
+          <strong>publishing on their Instagram reel and Tiktok</strong>.
+        </p>
+        <div className="flex justify-center mt-5 gap-12">
+          <div className="bg-white transition ease-in-out hover:scale-105 shadow-2xl shadow-black/70 text-black flex flex-col items-center px-9 py-4 rounded-3xl">
+            <img className="w-24 rounded-full" src={Gostosa} />
+            <h1 className="text-xl font-Inter font-bold mt-2">4.6M</h1>
+            <p className="font-normal">Followers</p>
+          </div>
+          <div className="bg-white transition ease-in-out hover:scale-105 shadow-2xl shadow-black/70  text-black flex flex-col items-center px-9 py-4 rounded-3xl">
+            <img className="w-24 rounded-full" src={Gostosa} />
+            <h1 className="text-xl font-Inter font-bold mt-2">4.6M</h1>
+            <p className="font-normal">Followers</p>
+          </div>
+          <div className="bg-white transition ease-in-out hover:scale-105 shadow-2xl shadow-black/70 text-black flex flex-col items-center px-9 py-4 rounded-3xl">
+            <img className="w-24 rounded-full" src={Gostosa} />
+            <h1 className="text-xl font-Inter font-bold mt-2">4.6M</h1>
+            <p className="font-normal">Followers</p>
+          </div>
+        </div>
+        <div className="flex justify-center items-center mt-5 gap-20">
+          <div className="flex items-center flex-col">
+            <h1 className="font-bold font-Inter text-6xl">12M</h1>
+            <p className="font-normal">Organic Views</p>
+          </div>
+          <div className="flex items-center flex-col">
+            <h1 className="font-bold font-Inter text-6xl">95</h1>
+            <p className="font-normal">Posts</p>
+          </div>
+          <div className="flex items-center flex-col">
+            <h1 className="font-bold font-Inter text-6xl">116</h1>
+            <p className="font-normal">Assets</p>
+          </div>
+          <div className="flex items-center flex-col">
+            <h1 className="font-bold font-Inter text-6xl">+200</h1>
+            <p className="font-normal">Hours Saved</p>
           </div>
         </div>
       </div>
-      <div className="col-span-6 ">
-        <div className="flex h-full items-center justify-evenly">
-          <div className="flex flex-col gap-5 sm:w-40">
-            <video
-              width="100%"
-              height="100%"
-              className="rounded-xl shadow-2xl shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105"
-              src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/99moto_1.mp4"
-              muted
-              loop
-              autoPlay
-            />
-            <div className="flex gap-2">
-              <img className="w-12 rounded-full" src={Gostosa} />
-              <div className="flex flex-col gap-2">
-                <p className="text-sm font-bold">@LuanderIlidio</p>
-                <div className="flex items-center gap-2">
-                  <TiktokLogo size={18} weight="fill" />
-                  <p className="text-sm font-medium">5K</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col mb-14 gap-5 sm:w-40">
-            <video
-              width="100%"
-              height="100%"
-              className="rounded-xl shadow-2xl shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105"
-              src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/99moto_1.mp4"
-              muted
-              loop
-              autoPlay
-            />
-            <div className="flex gap-2">
-              <img className="w-12 rounded-full" src={Gostosa} />
-              <div className="flex flex-col gap-2">
-                <p className="text-sm font-bold">@LuanderIlidio</p>
-                <div className="flex items-center gap-2">
-                  <TiktokLogo size={18} weight="fill" />
-                  <p className="text-sm font-medium">5K</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col gap-5 sm:w-40">
-            <video
-              width="100%"
-              height="100%"
-              className="rounded-xl shadow-2xl shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105"
-              src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/99moto_1.mp4"
-              muted
-              loop
-              autoPlay
-            />
-            <div className="flex gap-2">
-              <img className="w-12 rounded-full" src={Gostosa} />
-              <div className="flex flex-col gap-2">
-                <p className="text-sm font-bold">@LuanderIlidio</p>
-                <div className="flex items-center gap-2">
-                  <TiktokLogo size={18} weight="fill" />
-                  <p className="text-sm font-medium">5K</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div className="col-span-1" />
     </div>
   );
 }

@@ -10,14 +10,17 @@ import Content_Ninth from "../../components/Content_ninth";
 import Content_Tenth from "../../components/Content_tenth";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
+import Content_important1 from "../../components/Content_important1";
+import FormsProposta from "../../components/FormsProposta/Index";
 
 export default function Home() {
   return (
     <div>
       <Header />
       <Content_Primary />
+      <Content_important1/>
       <Content_Secondary />
-      <Content_Tertiary />
+      {/* <Content_Tertiary /> */}
       <Content_Quaternary />
       <Content_Fifth />
       <Content_Sixth />
@@ -25,6 +28,7 @@ export default function Home() {
       <Content_Octave />
       <Content_Ninth />
       <Content_Tenth />
+      <FormsProposta/>
       <Footer />
     </div>
   );

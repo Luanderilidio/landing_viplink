@@ -7,25 +7,28 @@ export default function Content_Primary() {
     <div className=" grid grid-cols-12 sm:px-10  mt-2">
       <div className="col-span-12 sm:col-span-6 flex flex-col gap-7">
         <h1 className="text-6xl text-center sm:text-left sm:text-8xl font-bold font-Inter	">
-          Brand
+          Growth for <br />
+          Gen-Z
           <br />
-          Growth for
-          <br />
+          Brands
+          {/* Growth for
           <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-Inter text-6xl sm:text-8xl font-black">
             Gen-Z
-          </span>
+          </span> */}
+          <br />
         </h1>
         <div className="w-full flex items-center sm:justify-start justify-center">
           <p className="w-4/5 sm:text-left text-center text-md font-medium">
-            <strong>Viplink.ai</strong> is a brand growth platform that uses
-            proprietary dynamic pricing and a broad network of professional
+            <strong>Viplink's</strong> AI-powered managed service generates
+            hundreds of user-generated branded videos tailored to your brand's
+            needs.
           </p>
         </div>
         <div className="hidden sm:flex items-center justify-start gap-5 ">
-          <button className="btn w-1/4 btn-active text-white bg-violet-700 hover:bg-violet-600 active:bg-violet-700 shadow-lg shadow-violet-700/30 rounded-xl capitalize">
+          <button className="btn w-1/4 btn-active text-white bg-[#cb0041] hover:bg-transparent border-2 border-[#cb0041] hover:border-[#cb0041] active:border-2 active:border-[#cb0041] shadow-lg shadow-[#cb0041]/20 hover:shadow-[#cb0041]/40 rounded-xl capitalize">
             Contat Us
           </button>
-          <button className="btn w-1/4 btn-outline text-white border-2 border-white hover:border-white hover:bg-transparent rounded-xl  capitalize">
+          <button className="btn w-1/4 btn-outline text-white border-2 border-white hover:border-[#cb0041] hover:bg-transparent rounded-xl  capitalize">
             Explore More
           </button>
         </div>
@@ -74,8 +77,11 @@ export default function Content_Primary() {
         </div>
       </div>
       <div className="col-span-12 flex mt-20 flex-col gap-10 w-full">
-        <p className=" sm:w-full text-center text-violet-700 font-bold text-sm">
-          POWERING GROWTH FROM COMPANIES <br className="sm:hidden"/> ALL AROUND THE WORLD
+        <p className=" sm:w-full text-white text-center  font-bold text-sm uppercase">
+          Powering Brand Growth For Companies <br className="sm:hidden" /> All
+          Around The World
+          {/* GROWTH FROM COMPANIES <br className="sm:hidden" /> ALL AROUND THE
+          WORLD */}
         </p>
         <LogoCarrousel />
       </div>

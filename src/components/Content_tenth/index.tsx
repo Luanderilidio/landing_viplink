@@ -44,14 +44,14 @@ export default function Content_Tenth() {
             <input
               type="text"
               placeholder="Your Email Adress"
-              className="input rounded-xl w-full font-semibold bg-transparent text-white border-2 border-violet-700 focus:border-violet-500 focus:shadow-md focus:shadow-violet-700/30 pl-10 pr-4 py-2"
+              className="input rounded-xl w-full font-semibold bg-transparent text-white border-2 border-default focus:border-default focus:shadow-md focus:shadow-default/30 pl-10 pr-4 py-2"
               // className="pl-10 pr-4 py-2 border border-gray-300 rounded-md"
             />
             <div className="absolute inset-y-0 left-0 flex items-center pl-3">
               <EnvelopeSimple size={22} weight="bold" />
             </div>
           </div>
-          <button className="btn w-full flex items-center gap-2 btn-active text-white bg-violet-700 hover:bg-violet-600 active:bg-violet-700 shadow-lg shadow-violet-700/30 rounded-xl capitalize">
+          <button className="btn w-full flex items-center gap-2 btn-active border-2 border-default text-white bg-default hover:bg-default shadow-lg shadow-default/30 rounded-xl capitalize">
             SEND NEW OPPORTUNITIES
             <PaperPlaneRight size={16} weight="fill" />
           </button>

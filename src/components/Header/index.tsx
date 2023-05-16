@@ -21,22 +21,26 @@ export default function Header() {
       <div className="w-full flex items-center justify-between font-Inter p-6">
         <img alt="logo_viplink" className="w-20 sm:w-28" src={LogoViplink} />
         <div className="flex items-center justify-center gap-10 ">
-          <div className="hidden sm:block flex-col group hover:text-violet-700 transition-all ease-in-out  active:scale-95">
+          <div className="hidden sm:block flex-col group transition-all ease-in-out  active:scale-95">
             <button className=" py-1 text-sm font-Inter font-bold">
-              For influencers
+              Creators
             </button>
-            <div className="transition-all ease-in-out w-0 group-hover:w-full h-1 bg-violet-700" />
+            <div className="transition-all ease-in-out w-0 group-hover:w-full h-1 bg-[#cb0041]" />
           </div>
-          <div className=" hidden sm:block flex-col group hover:text-violet-700 transition-all ease-in  active:scale-95">
+          {/* <div className=" hidden sm:block flex-col group hover:text-violet-700 transition-all ease-in  active:scale-95">
             <button className="py-1 text-sm font-Inter font-bold">
               About us
             </button>
             <div className="transition-all ease-in-out w-0 group-hover:w-full h-1 bg-violet-700" />
-          </div>
-          <div className="dropdown dropdown-hover dropdown-bottom dropdown-end ">
-            <div className="transition ease-in-out flex items-center text-white hover:text-violet-700">
+          </div> */}
+          <div className="dropdown dropdown-hover dropdown-bottom dropdown-end group">
+            <div className="transition ease-in-out flex items-center text-white">
               <Translate size={22} weight="bold" tabIndex={0} />
-              <CaretDown size={12} weight="bold" />
+              <CaretDown
+                size={12}
+                className="group-hover:text-[#cb0041]"
+                weight="bold"
+              />
             </div>
             <div
               className=" text-black bg-white p-2 shado rounded-lg  flex flex-col  dropdown-content menu w-32"
@@ -56,7 +60,7 @@ export default function Header() {
               </button>
             </div>
           </div>
-          <button className=" hidden btn bg-violet-700 hover:bg-violet-600 active:bg-violet-700 shadow-lg shadow-violet-700/30 text-white rounded-xl sm:flex items-center gap-2 text-sm normal-case">
+          <button className=" hidden btn  bg-[#cb0041] border-2 border-[#cb0041] hover:border-[#cb0041] hover:bg-transparent shadow-lg shadow-[#cb0041]/20 hover:shadow-[#cb0041]/40  text-white rounded-xl sm:flex items-center gap-2 text-sm normal-case">
             Schedule a Call
             <ArrowRight weight="bold" size={18} />
           </button>

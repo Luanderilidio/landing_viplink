@@ -13,7 +13,7 @@ export default function Content_Quaternary() {
     <div className="flex items-center flex-col gap-16 mt-24 sm:px-0 px-5">
       <div className="flex flex-col items-center gap-2">
         <p className="text-center font-bold capitalize text-3xl sm:text-5xl">
-          How to Works
+          How Viplink AI Works?
         </p>
         <div className="w-6/12 h-1 rounded-sm  bg-violet-700" />
       </div>
@@ -25,10 +25,9 @@ export default function Content_Quaternary() {
             className="transition-all group-hover:scale-105 ease-in-out group-hover:text-violet-600"
             weight="fill"
           />
-          <p className="font-bold text-lg">Brand alignment</p>
+          <p className="font-bold text-lg text-center">Set <br /> Objectives</p>
           <p className="font-normal text-md text-center">
-            Consultants will help you define the perfect target audience and
-            creator profile to achieve your brand goals.
+            Define brand goals and audience
           </p>
         </div>
         <div className="group col-span-4 sm:col-span-1 flex flex-col items-center justify-start gap-5">
@@ -37,9 +36,12 @@ export default function Content_Quaternary() {
             className="transition-all group-hover:scale-105 ease-in-out group-hover:text-violet-600"
             weight="fill"
           />
-          <p className="font-bold text-lg">Setup and Launch</p>
+          <p className="font-bold text-lg text-center">
+            Rank Branded <br />
+            Assets
+          </p>
           <p className="font-normal text-md text-center">
-            AI will get the best available bidding price for you to go VIRAL.
+            The best ones will go live.
           </p>
         </div>
         <div className="group col-span-4 sm:col-span-1 flex flex-col items-center justify-start gap-5">
@@ -48,10 +50,11 @@ export default function Content_Quaternary() {
             className="transition-all group-hover:scale-105 ease-in-out group-hover:text-violet-600"
             weight="fill"
           />
-          <p className="font-bold text-lg">Brand Safety</p>
+          <p className="font-bold text-lg text-center">
+            Follow Real <br /> Time Results
+          </p>
           <p className="font-normal text-md text-center">
-            Curated and aligned creators deliver AMAZING branded content to
-            millions of consumers.
+            Will can follow every single second of the campaign’s results.
           </p>
         </div>
         <div className="group col-span-4 sm:col-span-1 flex flex-col items-center justify-start gap-5">
@@ -60,9 +63,12 @@ export default function Content_Quaternary() {
             className="transition-all group-hover:scale-105 ease-in-out group-hover:text-violet-600"
             weight="fill"
           />
-          <p className="font-bold text-lg">Hands Free Results</p>
+          <p className="font-bold text-lg text-center">
+            Hands <br /> Free
+          </p>
           <p className="font-normal text-md text-center">
-            From audience management to creator reward payments.
+            From audience management to creator reward payment, our ai will
+            handle everything for you.
           </p>
         </div>
       </div>

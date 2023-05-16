@@ -5,6 +5,9 @@ module.exports = {
   darkMode: "class",
   theme: {
     extend: {
+      colors: {
+        default: "#cb0041",
+      },
       backgroundImage: {
         "hero-pattern": "url('/public/BACKGROUND.png')",
       },

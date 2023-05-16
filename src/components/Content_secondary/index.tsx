@@ -12,7 +12,7 @@ export default function Content_Secondary() {
     <div className="flex flex-col gap-20 mt-32">
       <div className="col-span-12 flex flex-col items-center gap-2">
         <p className="text-center font-bold capitalize text-3xl sm:text-5xl">
-          Brands drive growth <br className="sm:hidden" /> with creators
+          Increase Awareness Where <br /> Your Targets Audience Is
         </p>
         <div className="w-3/12 h-1 rounded-sm  bg-violet-700" />
       </div>

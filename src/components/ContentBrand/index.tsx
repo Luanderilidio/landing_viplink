@@ -142,7 +142,12 @@ export default function ContentBrand() {
       <div className="col-span-5 flex flex-col justify-center gap-5 relative">
         <div className="flex flex-col">
           <p className="text-6xl text-center sm:text-left sm:text-7xl font-black leading-none font-Inter uppercase">
-            Awareness Where Your Customers Are
+            Awareness Where Your{" "}
+            <span className="relative z-50">
+              Customers
+              <div className="h-10 w-full rounded-sm bg-default absolute bottom-0 -z-50" />
+            </span>
+            Are
           </p>
         </div>
       </div>

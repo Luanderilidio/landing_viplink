@@ -10,13 +10,10 @@ export default function Content_Secondary() {
     query: "(max-width: 767px)",
   });
   return (
-    <div className="flex flex-col gap-20 mt-32">
+    <div className="flex flex-col gap-20 mt-52 ">
       <div className="col-span-12 flex flex-col items-center gap-2">
         <ContentBrand />
       </div>
-      {/* <div className="col-span-12">
-        {isMobile ? <SliderCard /> : <SliderBrandStatistics />}
-      </div> */}
     </div>
   );
 }

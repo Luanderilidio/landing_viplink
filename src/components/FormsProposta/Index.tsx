@@ -12,7 +12,7 @@ import {
 
 export default function FormsProposta() {
   return (
-    <div className="sm:grid sm:grid-cols-12 flex flex-col gap-10 sm:gap-16 mt-24  px-5">
+    <div className="sm:grid sm:grid-cols-12 flex flex-col gap-10 sm:gap-16 mt-52  px-5">
       <div className="hidden sm:block col-span-1" />
 
       <div className="col-span-12 sm:col-span-5 flex flex-col items-center justify-start gap-10">
@@ -68,21 +68,20 @@ export default function FormsProposta() {
             <PaperPlaneRight size={16} weight="fill" />
           </button>
           <p className="font-bold text-zinc-800">
-            Questions? Call us at (877)525-123 Viplink.ai or email us at{" "}
-            <span className="text-default">creators@viplink.ai</span>
+            *We are LGPD compliant and this is for internal use only
           </p>
         </div>
       </div>
-      <div className="col-span-12 sm:col-span-5 flex flex-col items-start justify-start  gap-5">
+      <div className="col-span-12 sm:col-span-6 flex flex-col items-start justify-start  gap-5">
         <p className="text-center font-Inter w-full sm:text-left font-black capitalize text-xl sm:text-7xl">
-          NO HOURLY
-          <br /> FEES. NO <br />
-          RETAINERS
+          NO HOURLY FEES.
+          <br />
+          NO RETAINERS
         </p>
         <p className="text-lg font-semibold mt-5">
           <strong>Viplink</strong> is buit for brands and agencies.
         </p>
-        <p className="text-sm">
+        <p className="text-sm w-2/3">
           We provide marketing services, but we are not an agency. With Vipink,
           everthing is priced upfront, so yuo know the exact cost of we will
           deliver.
@@ -90,7 +89,7 @@ export default function FormsProposta() {
         <p className="text-lg font-semibold">
           Safe and compliant partnerships.
         </p>
-        <p className="text-sm">
+        <p className="text-sm w-2/3">
           Viplink in-house legal team helps our customers sucessfuly navigate
           the complexities of influencer marketing in highly-regulared
           industries from insurance finance and phamarceuticals, to gaming,

@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { useCountUp } from "react-countup";
 
-export default function CardBrand({ creators, metrics, logo }: any) {
+export default function CardBrand({ creators, metrics, logo, index }: any) {
   const countUpRef = useRef(null);
 
   const { start, pauseResume, reset, update } = useCountUp({
@@ -23,9 +23,13 @@ export default function CardBrand({ creators, metrics, logo }: any) {
         <img src={logo} className="w-32" />
       </div> */}
 
-      <div className="flex justify-center gap-10 ">
-        {creators.map((item: any) => (
-          <div className="bg-white transition ease-in-out hover:scale-105 shadow-2xl shadow-black/70 text-black flex flex-col items-center px-9 py-4 rounded-3xl">
+      <div className="flex justify-center gap-10">
+        {creators.map((item: any, index: number) => (
+          <div
+            className={`bg-white transition ease-in-out hover:scale-105 ${
+              index === 1 ? "mb-32" : "mt-32"
+            } shadow-2xl shadow-black/70 text-black flex flex-col items-center  px-9 py-4 rounded-3xl`}
+          >
             <img
               className="w-24 h-24 rounded-full shadow-md shadow-black/50"
               src={item.avatar}
@@ -35,21 +39,25 @@ export default function CardBrand({ creators, metrics, logo }: any) {
           </div>
         ))}
       </div>
-      <div className="flex justify-center gap-12 items-center ">
+      <div className="flex justify-center gap-12 items-center mt-5 relative">
+        <img
+          src={logo}
+          className={`${index !== 2 ? "w-40" : "w-20"} absolute -top-32`}
+        />
         <div className="flex items-center flex-col">
-          <h1 className="font-black font-Inter text-5xl">12M</h1>
+          <h1 className="font-black font-Inter text-5xl">{metrics[0]}</h1>
           <p className="font-normal">Organic Views</p>
         </div>
         <div className="flex items-center flex-col">
-          <h1 className="font-black font-Inter text-5xl">95</h1>
+          <h1 className="font-black font-Inter text-5xl">{metrics[1]}</h1>
           <p className="font-normal">Posts</p>
         </div>
         <div className="flex items-center flex-col">
-          <h1 className="font-black font-Inter text-5xl">116</h1>
+          <h1 className="font-black font-Inter text-5xl">{metrics[2]}</h1>
           <p className="font-normal">Assets</p>
         </div>
         <div className="flex items-center flex-col">
-          <h1 className="font-black font-Inter text-5xl">+200</h1>
+          <h1 className="font-black font-Inter text-5xl">{metrics[3]}</h1>
           <p className="font-normal">Hours Saved</p>
         </div>
       </div>

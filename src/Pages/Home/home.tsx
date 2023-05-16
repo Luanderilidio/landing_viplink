@@ -18,17 +18,17 @@ export default function Home() {
     <div>
       <Header />
       <Content_Primary />
-      <Content_important1/>
+      <Content_important1 />
       <Content_Secondary />
       {/* <Content_Tertiary /> */}
       <Content_Quaternary />
       <Content_Fifth />
-      <Content_Sixth />
-      <Content_Seventh />
-      <Content_Octave />
+      {/* <Content_Sixth /> */}
+      {/* <Content_Seventh /> */}
+      {/* <Content_Octave /> */}
       <Content_Ninth />
-      <Content_Tenth />
-      <FormsProposta/>
+      {/* <Content_Tenth /> */}
+      <FormsProposta />
       <Footer />
     </div>
   );

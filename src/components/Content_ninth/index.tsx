@@ -9,12 +9,12 @@ export default function Content_Ninth() {
 
   const value = isMobile ? 500 : 760
   return (
-    <div className=" flex flex-col gap-10 sm:gap-0 mt-24 px-5">
+    <div className=" flex flex-col gap-10 sm:gap-0 mt-52 px-5">
       <div className="flex flex-col items-center justify-center  gap-1">
-        <p className="text-center w-full font-bold normal-case text-3xl sm:text-5xl">
+        <p className="text-center w-full font-black text-3xl uppercase sm:text-7xl">
           Schedule a Call
         </p>
-        <div className="w-2/12 h-1 rounded-sm  bg-violet-700" />
+        <div className="w-2/12 h-1 rounded-sm  bg-default" />
       </div>
       <div className="flex items-center justify-center">
         <div className="w-full h-full rounded-lg">

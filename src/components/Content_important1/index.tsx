@@ -3,17 +3,16 @@ import { ArrowRight, ArrowSquareOut, CheckCircle } from "phosphor-react";
 
 export default function Content_important1() {
   return (
-    <div className="sm:grid sm:grid-cols-12 flex flex-col mt-24  px-5">
+    <div className="sm:grid sm:grid-cols-12 flex flex-col mt-52  px-5">
       <div className="hidden sm:block col-span-1" />
       <div className="col-span-12 sm:col-span-7 flex flex-col items-center justify-center  gap-5">
-        <p className="text-center w-full sm:text-left font-bold text-3xl sm:text-7xl uppercase">
+        <p className="font-black font-Inter text-7xl uppercase">
           Our brand partners
-          <br /> get 234% more <br />
+          <br />
+          get 234% more
+          <br />
           awareness
         </p>
-        {/* <button className="hidden sm:block btn w-2/4 btn-outline text-white border-2 border-white hover:border-white hover:bg-transparent rounded-xl normal-case">
-          Schedule a Call
-        </button> */}
       </div>
 
       <div className="col-span-12 sm:col-span-3 flex flex-col items-center justify-start gap-10">

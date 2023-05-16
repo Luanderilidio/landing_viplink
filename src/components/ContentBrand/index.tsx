@@ -138,23 +138,15 @@ export default function ContentBrand() {
   ];
 
   return (
-    <div className="grid grid-cols-12">
-      <div className="col-span-1" />
-      <div className="col-span-4 flex flex-col justify-start gap-5 relative">
-        <p className="text-4xl font-Inter font-black uppercase">
-          Increase Awareness Where Your Targets Audience Is
-        </p>
-        <div className="w-32">
-          <img className="max-w-full" src={cases[currentIndex].logo} />
+    <div className="grid grid-cols-12 px-10">
+      <div className="col-span-5 flex flex-col justify-center gap-5 relative">
+        <div className="flex flex-col">
+          <p className="text-6xl text-center sm:text-left sm:text-7xl font-black leading-none font-Inter uppercase">
+            Awareness Where Your Customers Are
+          </p>
         </div>
-        <p className="w-full text-lg text-left font-Inter">
-          {cases[currentIndex].paragraph_first}
-          <br />
-          <br />
-          {cases[currentIndex].paragraph_secundary}
-        </p>
       </div>
-      <div className="col-span-6  ">
+      <div className="col-span-7  ">
         <Swiper
           spaceBetween={20}
           pagination={{
@@ -168,24 +160,15 @@ export default function ContentBrand() {
           {data.map((item, index) => (
             <SwiperSlide key={index}>
               <CardBrand
+                index={index}
                 creators={item.creators}
                 metrics={item.metrics}
                 logo={item.logo}
               />
             </SwiperSlide>
           ))}
-          {/* <SwiperSlide>
-            <CardBrand />
-          </SwiperSlide>
-          <SwiperSlide>
-            <CardBrand />
-          </SwiperSlide>
-          <SwiperSlide>
-            <CardBrand />
-          </SwiperSlide> */}
         </Swiper>
       </div>
-      <div className="col-span-1" />
     </div>
   );
 }

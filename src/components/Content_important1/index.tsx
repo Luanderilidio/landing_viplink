@@ -6,7 +6,7 @@ export default function Content_important1() {
     <div className="sm:grid sm:grid-cols-12 flex flex-col mt-24  px-5">
       <div className="hidden sm:block col-span-1" />
       <div className="col-span-12 sm:col-span-7 flex flex-col items-center justify-center  gap-5">
-        <p className="text-center w-full sm:text-left font-bold capitalize text-3xl sm:text-7xl">
+        <p className="text-center w-full sm:text-left font-bold text-3xl sm:text-7xl uppercase">
           Our brand partners
           <br /> get 234% more <br />
           awareness
@@ -29,7 +29,7 @@ export default function Content_important1() {
           />
           <div className=" flex gap-5 items-center absolute bottom-14 -left-40">
             <p className="text-5xl font-bold ">130</p>
-            <p className="bg-white text-black rounded-sm p-2 text-xl font-medium">
+            <p className="bg-white text-black rounded-lg shadow-lg shadow-black/30 p-2 text-xl font-medium">
               Number of video assets received <br /> monthly by our brand
               partners
             </p>

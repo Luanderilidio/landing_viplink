@@ -1,12 +1,15 @@
 import "animate.css";
 import { ArrowRight } from "phosphor-react";
+import Video1 from "../../assets/videos/eutatiele.mp4";
+import Video2 from "../../assets/videos/lidiamub.mp4";
+
 import LogoCarrousel from "../LogoCarrousel";
 
 export default function Content_Primary() {
   return (
-    <div className=" grid grid-cols-12 sm:px-10  mt-2">
+    <div className=" grid grid-cols-12 sm:px-10  mt-10">
       <div className="col-span-12 sm:col-span-6 flex flex-col justify-end gap-7">
-        <h1 className="text-6xl text-center sm:text-left sm:text-8xl font-black uppercase font-Inter	">
+        <h1 className="text-6xl text-center sm:text-left sm:text-9xl font-black uppercase font-Inter	">
           Growth <br />
           for Gen-Z Brands
           {/* Growth for
@@ -38,7 +41,7 @@ export default function Content_Primary() {
               width="100%"
               height="100%"
               className="rounded-xl shadow-2xl shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105"
-              src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/99moto_1.mp4"
+              src={Video2}
               muted
               loop
               autoPlay
@@ -49,7 +52,7 @@ export default function Content_Primary() {
               width="100%"
               height="100%"
               className="rounded-xl shadow-2xl shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105"
-              src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/fusion_1.mp4"
+              src={Video1}
               muted
               loop
               autoPlay
@@ -60,7 +63,7 @@ export default function Content_Primary() {
               width="100%"
               height="100%"
               className="rounded-xl shadow-2xl shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105"
-              src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/wpt_1.mp4"
+              src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/fusion_1.mp4"
               muted
               loop
               autoPlay
@@ -74,7 +77,7 @@ export default function Content_Primary() {
           </button>
         </div>
       </div>
-      <div className="col-span-12 flex mt-20 flex-col gap-10 w-full">
+      <div className="col-span-12 flex mt-10 flex-col gap-10 w-full">
         <p className=" sm:w-full text-white text-center  font-bold text-sm uppercase">
           Powering Brand Growth For Companies <br className="sm:hidden" /> All
           Around The World

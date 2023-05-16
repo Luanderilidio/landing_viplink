@@ -8,10 +8,14 @@ import LogoCarrousel from "../LogoCarrousel";
 export default function Content_Primary() {
   return (
     <div className=" grid grid-cols-12 sm:px-10  mt-10">
-      <div className="col-span-12 sm:col-span-6 flex flex-col justify-end gap-7">
-        <h1 className="text-6xl text-center sm:text-left sm:text-9xl font-black uppercase font-Inter	">
+      <div className="col-span-12 sm:col-span-6 flex flex-col justify-end gap-7 ">
+        <h1 className="text-6xl text-center sm:text-left sm:text-8xl font-black uppercase font-Inter">
           Growth <br />
-          for Gen-Z Brands
+          for Gen-Z{" "}
+          <span className="relative z-50">
+            Brands
+            <div className="h-10 w-full rounded-sm bg-default absolute bottom-0 -z-50" />
+          </span>
           {/* Growth for
           <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-Inter text-6xl sm:text-8xl font-black">
             Gen-Z

@@ -11,7 +11,10 @@ export default function Content_important1() {
           <br />
           get 234% more
           <br />
-          awareness
+          <span className="relative z-50">
+            awareness
+            <div className="h-10 w-full rounded-sm bg-default absolute bottom-0 -z-50" />
+          </span>
         </p>
       </div>
 
@@ -20,7 +23,7 @@ export default function Content_important1() {
           <video
             width="100%"
             height="100%"
-            className="rounded-xl shadow-2xl shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105"
+            className="rounded-xl shadow-2xl shadow-black/70 transition-all ease-in-out cursor-pointer active:scale-95 hover:scale-105 border-gradient border-l-4 from-blue-500 to-purple-500"
             src="https://tamovip-itens.s3.sa-east-1.amazonaws.com/extras/challenges/99moto_1.mp4"
             muted
             loop

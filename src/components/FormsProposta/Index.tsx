@@ -76,7 +76,11 @@ export default function FormsProposta() {
         <p className="text-center font-Inter w-full sm:text-left font-black capitalize text-xl sm:text-7xl">
           NO HOURLY FEES.
           <br />
-          NO RETAINERS
+          NO{" "}
+          <span className="relative z-50">
+            RETAINERS
+            <div className="h-10 w-full rounded-sm bg-default absolute left-0 bottom-0 -z-50" />
+          </span>
         </p>
         <p className="text-lg font-semibold mt-5">
           <strong>Viplink</strong> is buit for brands and agencies.

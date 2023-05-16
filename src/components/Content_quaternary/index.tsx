@@ -42,20 +42,32 @@ export default function Content_Quaternary() {
       </div>
       <div className="col-span-5 flex flex-col justify-center gap-5 relative  h-[500px]">
         {imageView[0] && (
-          <p className="text-6xl text-center sm:text-left sm:text-6xl font-black leading-none font-Inter uppercase  animate__animated animate__fadeIn">
-            GO LIVE WITH BRAND READY VIDEOS
+          <p className="text-6xl text-center sm:text-left sm:text-6xl font-black leading-none font-Inter uppercase  animate__animated animate__fadeIn ">
+            GO LIVE WITH BRAND READY{" "}
+            <span className="relative z-50">
+              VIDEOS
+              <div className="h-10 w-full rounded-sm bg-default absolute bottom-0 -z-50" />
+            </span>
           </p>
         )}
 
         {imageView[1] && (
           <p className="text-6xl text-center sm:text-left sm:text-6xl font-black leading-none font-Inter uppercase  animate__animated animate__fadeIn">
-            CHECK CONSOLIDATED REAL TIME RESULTS
+            CHECK CONSOLIDATED REAL TIME{" "}
+            <span className="relative z-50">
+              RESULTS
+              <div className="h-10 w-full rounded-sm bg-default absolute bottom-0 -z-50" />
+            </span>
           </p>
         )}
 
         {imageView[2] && (
-          <p className="text-6xl text-center sm:text-left sm:text-6xl font-black leading-none font-Inter uppercase  animate__animated animate__fadeIn">
-            REAL TIME ROI ANALISIS
+          <p className="text-6xl text-center sm:text-left sm:text-6xl font-black leading-none font-Inter uppercase  animate__animated animate__fadeIn ">
+            REAL TIME ROI{" "}
+            <span className="relative z-50">
+              ANALISIS
+              <div className="h-10 w-full rounded-sm bg-default absolute bottom-0 -z-50" />
+            </span>
           </p>
         )}
 

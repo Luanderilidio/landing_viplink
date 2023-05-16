@@ -11,10 +11,13 @@ export default function Content_Ninth() {
   return (
     <div className=" flex flex-col gap-10 sm:gap-0 mt-52 px-5">
       <div className="flex flex-col items-center justify-center  gap-1">
-        <p className="text-center w-full font-black text-3xl uppercase sm:text-7xl">
-          Schedule a Call
+        <p className="text-center font-Inter w-full sm:text-center font-black uppercase text-xl sm:text-7xl">
+          Schedule a{" "}
+          <span className="relative z-50">
+            Call
+            <div className="h-10 w-full rounded-sm bg-default absolute left-0 bottom-0 -z-50" />
+          </span>
         </p>
-        <div className="w-2/12 h-1 rounded-sm  bg-default" />
       </div>
       <div className="flex items-center justify-center">
         <div className="w-full h-full rounded-lg">
